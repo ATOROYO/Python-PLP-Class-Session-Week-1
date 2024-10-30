@@ -66,3 +66,33 @@ while True:
     if replay != "yes":
         print("Thanks for playing! Goodbye!")
         break
+
+
+# Random Joke generator
+import random
+
+def display_joke():
+    jokes = [
+        "Why do Python developers prefer dark mode? Because light attracts bugs!",
+        "How many programmers does it take to change a light bulb? None. It’s a hardware problem!",
+        "Why did the programmer quit his job? Because he didn't get arrays (a raise)!",
+        "Why do Java developers wear glasses? Because they don't C#!",
+        "A SQL query walks into a bar, walks up to two tables, and asks: 'Can I join you?'",
+        "What is a programmer's favorite hangout place? Foo Bar!",
+        "Why was the JavaScript developer sad? Because he didn’t know how to 'null' his feelings.",
+        "Why do programmers hate nature? It has too many bugs.",
+        "Why was the Python function feeling self-conscious? It didn’t have enough arguments!",
+        "Why did the developer go broke? Because he used up all his cache!",
+    ]
+
+    # Select a random joke
+    joke = random.choice(jokes)
+    print("\nHere's a joke for you:")
+    print(joke)
+
+while True:
+    display_joke()
+    play_again = input("\nWant to hear another joke? (yes/no): ").strip().lower()
+    if play_again != "yes":
+        print("Thanks for stopping by! Keep coding and laughing! 😄")
+        break
