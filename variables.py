@@ -24,3 +24,4 @@ print(languages)
 # Tuple data type
 products = ("XBox", 499.9, "Habibi", 23)
 print(products)
+print(products[2])
