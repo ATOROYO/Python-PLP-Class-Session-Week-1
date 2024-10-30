@@ -11,3 +11,8 @@ print(a) # Prints 5
 print(b) # Prints 7
 print(c) # Prints Hello World
 
+# numeric data type
+num1 = 55
+num2 = 5.3
+print(num1)
+print(num2)
