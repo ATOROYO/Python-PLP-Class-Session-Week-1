@@ -20,3 +20,7 @@ print(num2)
 # List data type
 languages = ["Python", "Dart", "Web", 23]
 print(languages)
+
+# Tuple data type
+products = ("XBox", 499.9, "Habibi", 23)
+print(products)
