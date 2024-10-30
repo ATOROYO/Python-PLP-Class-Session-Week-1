@@ -25,3 +25,7 @@ print(languages)
 products = ("XBox", 499.9, "Habibi", 23)
 print(products)
 print(products[2])
+
+# Set data type
+student_ids = {112, 114, 117, 113}
+print(student_ids)
