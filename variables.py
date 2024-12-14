@@ -31,5 +31,5 @@ student_ids = {112, 114, 117, 113}
 print(student_ids)
 
 # Dictionary data type
-capital_city = {"Kenya": "Nairobi", "Nigeria": "Lagos", "Uganda": "Kampala", "South Sudan": "Juba"}
+# capital_city = {"Kenya": "Nairobi", "Nigeria": "Lagos", "Uganda": "Kampala", "South Sudan": "Juba"}
 print(capital_city)
