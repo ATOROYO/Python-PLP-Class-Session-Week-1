@@ -32,4 +32,4 @@ print(student_ids)
 
 # Dictionary data type
 # capital_city = {"Kenya": "Nairobi", "Nigeria": "Lagos", "Uganda": "Kampala", "South Sudan": "Juba"}
-# print(capital_city)
+print(capital_city)
